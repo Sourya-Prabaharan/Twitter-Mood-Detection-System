@@ -1,8 +1,8 @@
-# 🐦 Twitter Mood Detection System
+# Twitter Mood Detection System
 
 A comprehensive system for collecting, analyzing, and visualizing sentiment from Twitter data using multiple machine learning approaches.
 
-## 🌟 Features
+## Features
 
 - **Real-time Tweet Collection**: Fetch tweets using Twitter API v2
 - **Multiple Sentiment Analysis Methods**:
@@ -15,7 +15,7 @@ A comprehensive system for collecting, analyzing, and visualizing sentiment from
 - **Comprehensive Analytics**: Visualizations, word clouds, timeline analysis
 - **Export Capabilities**: CSV, JSON report exports
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 twitter-mood-detector/
@@ -37,7 +37,7 @@ twitter-mood-detector/
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Prerequisites
 
@@ -85,7 +85,7 @@ cd src
 python example_usage.py
 ```
 
-## 🔧 Twitter API Setup
+## Twitter API Setup
 
 1. **Create Developer Account**:
    - Go to [developer.twitter.com](https://developer.twitter.com)
@@ -134,7 +134,7 @@ The Streamlit dashboard provides four main tabs:
 - Word clouds for positive/negative/neutral tweets
 - Method comparison charts
 
-## 🧪 Testing and Validation
+## Testing and Validation
 
 ### Test with Different Keywords
 
@@ -160,7 +160,7 @@ events = ["election", "olympics", "holiday", "graduation", "wedding"]
 2. **Cross-validation**: Compare different methods on the same dataset
 3. **Domain-specific Testing**: Test on different topics and languages
 
-## 🔍 Advanced Features
+##  Advanced Features
 
 ### Custom Model Training
 
@@ -200,7 +200,7 @@ collector.save_tweets_to_csv(tweets_df, "large_dataset.csv")
 loaded_df = collector.load_tweets_from_csv("large_dataset.csv")
 ```
 
-## 📈 Performance Optimization
+## Performance Optimization
 
 ### Memory Management
 - Process tweets in batches for large datasets
@@ -217,7 +217,6 @@ loaded_df = collector.load_tweets_from_csv("large_dataset.csv")
 - Cache pre-trained models to avoid reloading
 - Batch processing for sentiment analysis
 
-## 🛠️ Troubleshooting
 
 ### Common Issues
 
@@ -248,7 +247,7 @@ loaded_df = collector.load_tweets_from_csv("large_dataset.csv")
 3. Test with a small dataset first
 4. Check Twitter API status and your account limits
 
-## 📚 Dependencies
+##  Dependencies
 
 ### Core Libraries
 - **tweepy**: Twitter API client
@@ -268,34 +267,6 @@ loaded_df = collector.load_tweets_from_csv("large_dataset.csv")
 - **textblob**: Simple sentiment analysis
 - **vaderSentiment**: VADER sentiment analysis
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Twitter API for providing access to tweet data
-- Hugging Face for pre-trained transformer models
-- The open-source community for excellent Python libraries
-- Streamlit team for the amazing dashboard framework
-
-## 📞 Support
-
-For questions, issues, or contributions:
-- Open an issue on GitHub
-- Check the documentation
-- Review the example usage scripts
-
----
-
-**Happy Mood Detection! 🐦✨**
 
 
