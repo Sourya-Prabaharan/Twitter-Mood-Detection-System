@@ -41,7 +41,7 @@ twitter-mood-detector/
 
 ### 1. Prerequisites
 
-- Python 3.8 or higher
+- Python 3.11
 - Twitter Developer Account
 - Twitter API Bearer Token
 
@@ -49,8 +49,8 @@ twitter-mood-detector/
 
 1. **Clone or download the project**:
    ```bash
-   git clone <your-repo-url>
-   cd twitter-mood-detector
+   git clone https://github.com/Sourya-Prabaharan/Twitter-Mood-Detection-System.git
+   cd Twitter-Mood-Detection-System/twitter-mood-detector
    ```
 
 2. **Create virtual environment**:
@@ -97,10 +97,7 @@ python example_usage.py
    - Generate a Bearer Token
    - Copy the token to your `.env` file
 
-3. **API Access Levels**:
-   - **Free Tier**: 10,000 tweets per month
-   - **Basic Tier**: 10,000 tweets per month with additional features
-   - **Pro/Enterprise**: Higher limits and advanced features
+3. **API access**: Verify the current limits and permissions in your developer account. This project does not guarantee access at any pricing tier.
 
 ## 📊 Usage Guide
 
@@ -124,7 +121,7 @@ The Streamlit dashboard provides four main tabs:
 #### Sentiment Analysis Methods
 - **VADER**: Fast, lexicon-based, good for social media
 - **TextBlob**: Simple rule-based approach
-- **Transformer**: State-of-the-art accuracy with BERT models
+- **Transformer**: Pretrained transformer sentiment pipeline; accuracy is not evaluated here
 - **All Methods**: Compare results across different approaches
 
 #### Visualizations
